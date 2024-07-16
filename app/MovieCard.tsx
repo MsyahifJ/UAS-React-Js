@@ -48,8 +48,8 @@ const MovieCard = () => {
               <Card.Body className='bg-dark text-white'>
                 <Card.Title className='font-bold text-xl'>{movie.judul}</Card.Title>
                 <Card.Text>Rating: {movie.rating}</Card.Text>
-                <ButtonToolbar>
-                  <ButtonGroup className='d-flex justify-content-between' aria-label='first group'>
+                <ButtonToolbar className='d-flex justify-content-between'>
+                  <ButtonGroup aria-label='first group'>
                     <Button variant='primary'>View Detail</Button>
                   </ButtonGroup>
                   <ButtonGroup aria-label='second group'>
